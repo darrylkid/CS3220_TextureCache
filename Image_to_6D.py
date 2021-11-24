@@ -54,6 +54,7 @@ def convert_texel_array_to_6D(texels, width, height):
                 superblocks[a][b] = np.array(superblock)
             superblockoffsety += globals.super_block_wh
         superblockoffsetx += globals.super_block_wh
+        superblockoffsety = 0
     
     return np.array(superblocks)
     
