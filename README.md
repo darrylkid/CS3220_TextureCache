@@ -10,6 +10,10 @@
 
 ### Darryl
 
+- Converted a 6D blocking structure into a linear version (`linear()`)
+- Created the `address()` function that takes in texel coordinates and outputs the address for the 6D linear data structure.
+- Added functionality to output an image given a linear normal 1D array to verify that blocking works correctly.
+
 ## Code Documentation
 
 ## `Image_to_6D.py`
